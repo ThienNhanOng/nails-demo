@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Demo Nails</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+  <div class="logo">Demo Nails</div>
+    <div class="contact-info">
+      <span>📍 <a href="#contact" class="address-link">street city zip 1234567</a> | 📞 <a href="tel:+1234567">street city zip 1234567</a></span>
+    </div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <div class="hero-section">
+      <div class="hero-inner container">
+  <h1>Welcome to Demo Nails</h1>
+        <p class="tagline">Relax. Refresh. Reveal your best nails.</p>
+        <p class="hero-cta"><a class="btn-primary" href="#contact">Book an Appointment</a></p>
+      </div>
+    </div>
+
+    <div class="white-section">
+      <div class="container">
+        <h2>Beautiful nails, exceptional care</h2>
+        <p class="lead">We create clean, long-lasting manicures and pedicures in a relaxing, sanitary environment. Our technicians specialize in classic, gel, and nail art.</p>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Hours of Operation</h3>
+            <p><strong>Mon - Fri:</strong> 9:00 AM - 7:00 PM</p>
+            <p><strong>Saturday:</strong> 9:00 AM - 6:00 PM</p>
+            <p><strong>Sunday:</strong> Closed</p>
+          </div>
+          <div class="card">
+            <h3>Our Services</h3>
+            <ul>
+              <li>Classic Manicure & Pedicure</li>
+              <li>Gel & SNS Nails</li>
+              <li>Luxury Spa Treatments</li>
+              <li>Custom Nail Art</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Hygiene & Care</h3>
+            <p>We follow strict sanitation protocols, single-use buffers, and fully autoclaved instruments to keep you safe and comfortable.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Screen -->
+  <section id="about">
+    <div class="container about-content">
+  <h2>About Demo Nails</h2>
+  <p>Demo Nails is a boutique nail salon focused on delivering beautiful, long-lasting results in a calm and welcoming atmosphere. Our technicians are highly trained and passionate about design, comfort, and cleanliness.</p>
+      <p>Whether you want a simple, elegant manicure or a bold custom design, we tailor each service to your style and preferences.</p>
+  <img src="pictures/pic.jpeg" alt="Salon interior" class="about-image">
+    </div>
+  </section>
+
+  <!-- Our Services Screen -->
+  <section id="services">
+    <div class="container">
+      <h2>Signature Services</h2>
+      <div class="services-grid">
+        <div class="service">
+          <h4>Classic Manicure</h4>
+          <p>Cuticle care, shaping, buffing, and polish.</p>
+        </div>
+        <div class="service">
+          <h4>Gel Manicure</h4>
+          <p>Durable, high-shine finish cured under LED.</p>
+        </div>
+        <div class="service">
+          <h4>Spa Pedicure</h4>
+          <p>Soak, scrub, massage, and polish for happy feet.</p>
+        </div>
+        <div class="service">
+          <h4>Custom Nail Art</h4>
+          <p>From minimal accents to intricate designs.</p>
+        </div>
+      </div>
+      
+      <!-- Detailed service menu (left column) and manicure placeholder (right column) -->
+      <div class="services-split">
+        <div class="service-menu">
+          <h3 class="menu-heading">Pedicure Menu</h3>
+          <div class="menu-list">
+            <div class="menu-item" id="menu-1" role="button" tabindex="0" aria-expanded="false" aria-controls="details-1">
+              <div class="service-head">
+                <div class="service-title">Classic Pedicure</div>
+                <div class="service-meta">(25-30 Mins) &nbsp;&nbsp; $37</div>
+              </div>
+              <p class="service-desc">Relax from your soles up as the refreshing pedicure stimulates your feet.</p>
+              <div class="menu-details" id="details-1" hidden>
+                <p class="service-desc">The package includes:</p>
+                <ul class="service-bullets">
+                  <li>Toenail trimming &amp; shaping, cuticle care</li>
+                  <li>Exfoliating scrub</li>
+                  <li>Light massage</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="menu-item" id="menu-2" role="button" tabindex="0" aria-expanded="false" aria-controls="details-2">
+              <div class="service-head">
+                <div class="service-title">Hot Stone Pedicure</div>
+                <div class="service-meta">(30-35 Mins) &nbsp;&nbsp; $42</div>
+              </div>
+              <p class="service-desc">A pedicure for tired and aching feet that cools, hydrates, and soothes.</p>
+              <div class="menu-details" id="details-2" hidden>
+                <p class="service-desc">The package includes:</p>
+                <ul class="service-bullets">
+                  <li>Classic Pedicure</li>
+                  <li>Hot stone massage</li>
+                  <li>Hot towel wrap</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="menu-item" id="menu-3" role="button" tabindex="0" aria-expanded="false" aria-controls="details-3">
+              <div class="service-head">
+                <div class="service-title">Green Tea, Lavender, Or Peppermint</div>
+                <div class="service-meta">(35-40 Mins) &nbsp;&nbsp; $47</div>
+              </div>
+              <p class="service-desc">Give your feet a refreshing and healthy look!</p>
+              <div class="menu-details" id="details-3" hidden>
+                <p class="service-desc">This pedicure promotes soft skin for a more youthful, radiant glow. The package includes:</p>
+                <ul class="service-bullets">
+                  <li>Sea Salt Soak: Detoxifies and soothes your feet</li>
+                  <li>Sugar Scrub: Gently buffs away dead skin cells, leaving only soft skin</li>
+                  <li>Cream Mask &amp; Hot towel wrap: Moisturize your skin</li>
+                  <li>Massage Lotion: Hydrates and soothes the skin</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="menu-item" id="menu-4" role="button" tabindex="0" aria-expanded="false" aria-controls="details-4">
+              <div class="service-head">
+                <div class="service-title">Deluxe Pedicure</div>
+                <div class="service-meta">(40-45 Mins) &nbsp;&nbsp; $55</div>
+              </div>
+              <p class="service-desc">A secret to an unforgettable refreshing experience with aromatherapy scents.</p>
+              <div class="menu-details" id="details-4" hidden>
+                <p class="service-desc">The package includes:</p>
+                <ul class="service-bullets">
+                  <li>Bath Bomb: Draws out toxins, impurities, and more</li>
+                  <li>Jojoba Beads Scrub: Gently buffs away dead skin cells, leaving only soft skin</li>
+                  <li>Mask Treatment &amp; Hot towel wrap: Help to rejuvenate the skin by deeply moisturizing and boosting collagen production</li>
+                  <li>Hot stone massage</li>
+                  <li>Massage Cream: Promotes soft skin for a more youthful, radiant, and healthier look</li>
+                  <li>Paraffin wax on heels</li>
+                </ul>
+                <p class="service-desc small">Your choice of scent:</p>
+                <p class="scent-list">Milk &amp; Lemon &nbsp; • &nbsp; Blackberry &amp; Basil &nbsp; • &nbsp; Papaya &amp; Cucumber &nbsp; • &nbsp; Botanical Garden &nbsp; • &nbsp; Pomegranate &amp; Dragonfruit</p>
+              </div>
+            </div>
+
+            <div class="menu-item" id="menu-5" role="button" tabindex="0" aria-expanded="false" aria-controls="details-5">
+              <div class="service-head">
+                <div class="service-title">Collagen Pedicure</div>
+                <div class="service-meta">(Approx. 50 Mins) &nbsp;&nbsp; $60</div>
+              </div>
+              <p class="service-desc">A hydrating collagen treatment to boost skin elasticity and glow.</p>
+              <div class="menu-details" id="details-5" hidden>
+                <p class="service-desc">The package includes:</p>
+                <ul class="service-bullets">
+                  <li>Collagen Bubble-Crystals: Relieve stress</li>
+                  <li>Collagen Sugar Cane Scrub: Diminishes lines &amp; wrinkles</li>
+                  <li>Collagen Cream Mask &amp; Hot towel wrap: Draw out impurities &amp; maintain skin's youthful beauty</li>
+                  <li>Collagen Muscle-Relaxing Gel: Refreshes muscle tension</li>
+                  <li>Hot stone massage</li>
+                  <li>Paraffin wax on foot soles</li>
+                  <li>Collagen Massage Lotion: Makes your skin look silky throughout the day</li>
+                  <li>Collagen Serum Lotion (Free Customer Gift): Gives your feet long-lasting hydration</li>
+                </ul>
+                <p class="service-desc small">Your choice of scent:</p>
+                <p class="scent-list">Luxury Pearl &nbsp; • &nbsp; Crystal Waters &nbsp; • &nbsp; Lemon Splash &nbsp; • &nbsp; Lavender &amp; Lace &nbsp; • &nbsp; No.5 Perfume &nbsp; • &nbsp; Sweet Orange</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="manicure-panel">
+          <div class="manicure-images">
+            <img src="pictures/feet1.jpeg" alt="Pedicure preview 1">
+            <img src="pictures/feet2.jpeg" alt="Pedicure preview 2">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Screen -->
+  <section id="contact">
+    <div class="container contact-layout">
+      <div class="contact-content">
+        <div class="contact-header">
+          <h2>Book & Contact</h2>
+          <p class="contact-subtitle">Reserve your pampering session</p>
+        </div>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-text">
+              <span class="contact-label">Visit Us</span>
+              <span class="contact-value">street city zip 1234567</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div class="contact-text">
+              <span class="contact-label">Call to Book</span>
+              <span class="contact-value">street city zip 1234567</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div class="contact-text">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">street city zip 1234567</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.234567!2d-88.102115!3d41.9012253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e54b2f630afcb%3A0x76609d732a1596bb!2sB%20%26%20H%20Pharmacy!5e0!3m2!1sen!2sus!4v1693920000000!5m2!1sen!2sus"
+          width="100%" 
+          height="350" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Demo Nails Location">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer - Always Visible -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+  <h3>Demo Nails</h3>
+        <p>A boutique nail salon focused on beauty & care</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Hours</h3>
+        <p>Mon - Fri: 9:00 AM - 7:00 PM</p>
+        <p>Sat: 9:00 AM - 6:00 PM</p>
+        <p>Sun: Closed</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <p>• Services</p>
+        <p>• Book Appointment</p>
+        <p>• Contact</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+  <p>&copy; 2025 Demo Nails. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
